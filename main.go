@@ -27,7 +27,7 @@ func main() {
 	portEnv := os.Getenv("PORT")
 	if portEnv != "" {
 		portInt, err := strconv.Atoi(portEnv)
-		if err != nil {
+		if err == nil {
 			port = portInt
 		}
 	}
