@@ -10,7 +10,9 @@ I've also had proxies swallow `X-Forwarded-*` headers due to misconfigured middl
 
 ## Usage
 
-Simple HTTP echo is a simple Go binary with only one option: the `PORT` environment variable (which defaults to 3000 if not set). There's a container image for ease of use with Docker or Kubernetes: `jamesorlakin/simple-http-echo:latest`
+Simple HTTP echo is a simple Go binary with only one option: the `PORT` environment variable (which defaults to 3000 if not set).
+
+There's a container image for ease of use with Docker or Kubernetes: [`jamesorlakin/simple-http-echo:latest`](https://hub.docker.com/r/jamesorlakin/simple-http-echo).
 
 ### Response Example
 
